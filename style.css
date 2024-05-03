@@ -51,7 +51,11 @@ header{
 .menu nav a:hover::after{
     width: 30px;
 }
+.sobremim{
+    background-color: white;
+    width: 800px;
 
+}
 .sobre01{
   text-align: center;
   padding: 50px;
@@ -61,8 +65,21 @@ header{
 }
 
 .skills {
-    position: relative;
+    display: flex;
+    flex-wrap: wrap; /* Isso permite que os elementos quebrem para a próxima linha se não houver espaço suficiente */
+    
 }
+
+.skills > div {
+    flex: 1; /* Isso fará com que cada div filha ocupe a mesma quantidade de espaço disponível */
+    margin: 10px; /* Ajuste as margens conforme necessário */
+    text-align: center;
+}
+.nome > .skills{
+    text-align: center;
+    padding: 50px;
+}
+   
 .html{
     width: 100px;
     height: 100px;
@@ -72,6 +89,18 @@ header{
     height: 100px;
 }
 .js{
+    width: 100px;
+    height: 100px;
+}
+.react{
+    width: 100px;
+    height: 100px;
+}
+.node{
+    width: 100px;
+    height: 100px;
+}
+.github{
     width: 100px;
     height: 100px;
 }
