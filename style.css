@@ -2,7 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
 *{
-;
+    background-color: black;
+    color: white;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 header{
@@ -45,4 +50,16 @@ header{
 }
 .menu nav a:hover::after{
     width: 30px;
+}
+
+.sobre01{
+  text-align: center;
+  padding: 50px;
+}
+.sobre02{
+    text-align: center;
+}
+
+.skills {
+    position: relative;
 }
